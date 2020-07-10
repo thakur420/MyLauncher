@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyLauncher</string>
+    <string name="play_store">Play Store</string>
+    <string name="settings">Settings</string>
 </resources>
