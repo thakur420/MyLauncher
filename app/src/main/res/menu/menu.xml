@@ -4,7 +4,7 @@
 
     <item
         android:id="@+id/play_store"
-        android:orderInCategory="10"
+        android:orderInCategory="30"
         android:title="@string/play_store"
         app:showAsAction="never"/>
     <item
@@ -13,9 +13,10 @@
         android:title="@string/settings"
         app:showAsAction="never"/>
     <item
-        android:id="@+id/search"
+        android:id="@+id/action_search"
         android:icon="@android:drawable/ic_search_category_default"
-        android:orderInCategory="30"
+        android:orderInCategory="10"
         android:title="Search"
-        app:showAsAction="always"/>
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
 </menu>

@@ -9,13 +9,14 @@
 
     <ImageView
         android:id="@+id/apps"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
         android:background="#352525"
-        android:onClick="lauchApp"
+        android:onClick="launchApp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintCircleRadius="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/ic_apps" />
 </androidx.constraintlayout.widget.ConstraintLayout>
