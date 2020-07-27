@@ -133,7 +133,8 @@ public class AppList extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),"PlayStore",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.settings:
-                Toast.makeText(getApplicationContext(),"Settings",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(this, Settings.class);
+                this.startActivity(intent);
                 break;
         }
         return super.onOptionsItemSelected(item);
